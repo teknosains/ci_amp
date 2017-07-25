@@ -26,4 +26,6 @@ Installation
 ************
 
 Just Download to your local and run. Make some adjustment for the Database or
-your server config (Apache htaccess or Nginx)
+your server config (Apache htaccess or Nginx).
+
+Create a Database `ci_amp` and import the `ci_amp.sql`
