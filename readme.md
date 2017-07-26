@@ -1,6 +1,6 @@
-###################
+*******************
 What is this about ?
-###################
+*******************
 
 This is an example of how to make Web with Codeigniter with some optimizations
 technique including Layouting, Folder Structuring, HMVC, Assets management,
@@ -35,3 +35,17 @@ Run the web on your browser. For admin page navigate to
 http://localhost:/backend
 
 Login : admin / admin
+
+************
+Tutorial
+************
+
+[indonesia version] : [Tutorial: Optimasi Web Codeigniter 3 - Part2](http://teknosains.com/php/tutorial-optimasi-web-codeigniter-3-part-2)
+
+[english version] : incoming...
+*******************
+Screenshoots
+*******************
+![screenshoots](screenshoots/ss3.png)
+![screenshoots](screenshoots/ss5.png)
+![screenshoots](screenshoots/ss6.png)
