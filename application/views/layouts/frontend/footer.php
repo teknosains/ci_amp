@@ -6,6 +6,7 @@
 <script>var site_url = '<?php echo site_url();?>';</script>
 <script type="text/javascript" src="<?php echo resource_url('/assets/js/jquery-1.10.2.min.js');?>"></script>
 <script type="text/javascript" defer src="<?php echo resource_url('/assets/js/material.min.js');?>"></script>
+<script type="text/javascript" async src="<?php echo resource_url('/assets/js/lazysizes.min.js');?>"></script>
 
 <!---Inject additional JS-->
 <?php if (isset($js)) { foreach($js as $jx) {?>
