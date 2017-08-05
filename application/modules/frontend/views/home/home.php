@@ -6,7 +6,8 @@
           <li class="mdl-list__item mdl-list__item--two-line">
             <a class="card-link" href="<?php echo site_url('read/' . $lt['slug']);?>">
                 <span class="mdl-list__item-primary-content">
-                  <img class="mdl-list__item-avatar list-avatar avatar-article" src="<?php echo $lt['img_thumbnail'];?>" alt="<?php echo $lt['title']?>">
+					<!--Add `lazyload` to the class-->
+                  <img class="mdl-list__item-avatar list-avatar avatar-article lazyload" src="<?php echo $lt['img_thumbnail'];?>" alt="<?php echo $lt['title']?>">
                   <span><h2 class="tile-title"><?php echo $lt['title']?></h2></span>
                   <span class="mdl-list__item-sub-title list-sub-title">
                       by <?php echo $lt['created_by']?> | <?php echo date('M, d H:i', strtotime($lt['created_at']));?> | <?php echo $lt['pageview']; ?> views
